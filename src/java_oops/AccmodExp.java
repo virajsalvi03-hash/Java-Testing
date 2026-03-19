@@ -1,5 +1,7 @@
 package java_oops;
 
+import assignment4.ModifierAs;
+
 public class AccmodExp {
 	  protected String name;
 	public void printname(){
@@ -24,6 +26,10 @@ public class AccmodExp {
 		AccmodExp obj = new AccmodExp();
 		obj.name=("khan");
 		obj.printname2();
+		ModifierAs obj2 = new ModifierAs();
+		System.out.println(obj2.sum);
+//		System.out.println(obj2.num); --private variable of another class cannot be accessed in another class of another package
+//		System.out.println(obj2.def); --default variable of another class cannot be accessed in another class of another package
 
 	}
 
